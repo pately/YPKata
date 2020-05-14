@@ -1,8 +1,8 @@
 .DEFAULT_GOAL := help
 
 # Used for publishing docker images
-GIT_OWNER=oktinaut
-GIT_REPOSITORY=kata-github-actions
+GIT_OWNER=palely
+GIT_REPOSITORY=YPKata
 
 # Get npm package information
 NAME := $(shell node --print --eval "require('./package.json').name.split('/').pop()")
